@@ -3,12 +3,29 @@
     "apps": [],
     "details": [
       {
-        "appID": "YT494A5JEK.com.makemebetter.universal.links",
+        "appID": "PGB36VEQ8D.ru.yandex.mobile.services.clients",
         "paths": [
-          "*"
+          "/universal_links_reset_appstore_clients.html"
+        ]
+      },
+      {
+        "appID": "PGB36VEQ8D.ru.yandex.mobile.services",
+        "paths": [
+          "/universal_links_reset_appstore_workers.html"
+        ]
+      },
+      {
+        "appID": "X9DCYK36Q2.ru.yandex.mobile.services.clients.inhouse",
+        "paths": [
+          "/universal_links_reset_beta_clients.html"
+        ]
+      },
+      {
+        "appID": "X9DCYK36Q2.ru.yandex.mobile.services.inhouse",
+        "paths": [
+          "/universal_links_reset_beta_workers.html"
         ]
       }
     ]
   }
 }
-
