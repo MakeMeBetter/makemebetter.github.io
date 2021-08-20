@@ -5,49 +5,19 @@
             {
                 "appID": "PGB36VEQ8D.ru.yandex.mobile.services.clients",
                 "paths": [ 
-                    "/my-order",
-                    "/profile",
-                    "*" 
+                    "/test"
                 ]
             },
             {
                 "appID": "X9DCYK36Q2.ru.yandex.mobile.services.clients.inhouse",
                 "paths": [ 
-                    "/my-order",
-                    "/profile",
-                    "*"  
+                    "/test"  
                 ]
             },
             {
                 "appID": "477EAT77S3.ru.yandex.mobile.services.clients.dev",
                 "paths": [ 
-                    "/my-order",
-                    "/profile",
-                    "*" 
-                ]
-            },
-            {
-                "appID": "PGB36VEQ8D.ru.yandex.mobile.services",
-                "paths": [ 
-                    "/order",
-                    "/cab",
-                    "*"  
-                ]
-            },
-            {
-                "appID": "X9DCYK36Q2.ru.yandex.mobile.services.inhouse",
-                "paths": [ 
-                    "/order",
-                    "/cab",
-                    "*"  
-                ]
-            },
-            {
-                "appID": "477EAT77S3.ru.yandex.mobile.services.dev",
-                "paths": [ 
-                    "/order",
-                    "/cab",
-                    "*" 
+                    "/test" 
                 ]
             }
         ]
