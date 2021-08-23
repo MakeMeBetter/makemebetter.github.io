@@ -5,19 +5,22 @@
             {
                 "appID": "PGB36VEQ8D.ru.yandex.mobile.services.clients",
                 "paths": [ 
-                    "/test"
+                    "/test/*",
+                    "*"
                 ]
             },
             {
                 "appID": "X9DCYK36Q2.ru.yandex.mobile.services.clients.inhouse",
                 "paths": [ 
-                    "/test"  
+                    "/test/*",
+                    "*"
                 ]
             },
             {
                 "appID": "477EAT77S3.ru.yandex.mobile.services.clients.dev",
                 "paths": [ 
-                    "/test" 
+                    "/test/*",
+                    "*"
                 ]
             }
         ]
