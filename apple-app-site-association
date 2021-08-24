@@ -8,13 +8,10 @@
                 [ 
                     "PGB36VEQ8D.ru.yandex.mobile.services.clients", 
                     "X9DCYK36Q2.ru.yandex.mobile.services.clients.inhouse", 
-                    "477EAT77S3.ru.yandex.mobile.services.clients.dev",
-                    "PGB36VEQ8D.ru.yandex.mobile.services", 
-                    "X9DCYK36Q2.ru.yandex.mobile.services.inhouse", 
-                    "477EAT77S3.ru.yandex.mobile.services.dev"
+                    "477EAT77S3.ru.yandex.mobile.services.clients.dev"
                 ],
                 "components": 
-                [
+                [   
                     {
                         "#": "no_universal_links",
                         "exclude": true
@@ -22,18 +19,7 @@
                     {
                         "/": "/cab/personal/upload-passport",
                         "exclude": true
-                    }
-                ]
-            },
-            {
-                "appIDs": 
-                [ 
-                    "PGB36VEQ8D.ru.yandex.mobile.services.clients", 
-                    "X9DCYK36Q2.ru.yandex.mobile.services.clients.inhouse", 
-                    "477EAT77S3.ru.yandex.mobile.services.clients.dev"
-                ],
-                "components": 
-                [ 
+                    },
                     {
                         "/": "/cab",
                         "exclude": true
@@ -62,6 +48,14 @@
                 ],
                 "components": 
                 [ 
+                    {
+                        "#": "no_universal_links",
+                        "exclude": true
+                    },
+                    {
+                        "/": "/cab/personal/upload-passport",
+                        "exclude": true
+                    },
                     {
                         "/": "/my-orders",
                         "exclude": true
