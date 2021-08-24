@@ -4,71 +4,105 @@
         "details": 
         [
             {
-                "appIDs": 
-                [ 
-                    "PGB36VEQ8D.ru.yandex.mobile.services.clients", 
-                    "X9DCYK36Q2.ru.yandex.mobile.services.clients.inhouse", 
-                    "477EAT77S3.ru.yandex.mobile.services.clients.dev"
-                ],
-                "components": 
+                "appID": "PGB36VEQ8D.ru.yandex.mobile.services.clients", 
+                "paths": 
                 [   
-                    {
-                        "#": "no_universal_links",
-                        "exclude": true
-                    },
-                    {
-                        "/": "/cab/personal/upload-passport",
-                        "exclude": true
-                    },
-                    {
-                        "/": "/cab",
-                        "exclude": true
-                    },
-                    {
-                        "/": "/cab/*",
-                        "exclude": true
-                    },
-                    {
-                        "/": "/order/*",
-                        "exclude": true
-                    },
-                    { "/": "/my-orders" },
-                    { "/": "/my-order/*" },
-                    { "/": "/profile" },
-                    { "/": "/profile/*" },
-                    { "/": "/*" }
+                    "NOT /cab/personal/upload-passport",
+                    "NOT /cab/personal/upload-passport/*",
+                    "NOT /cab",
+                    "NOT /cab/*",
+                    "NOT /order/*",
+                    "NOT /registration",
+                    "/my-orders",
+                    "/my-order/*",
+                    "/profile",
+                    "/profile/*",
+                    "/",
+                    "*"
                 ]
             },
             {
-                "appIDs": 
-                [ 
-                    "PGB36VEQ8D.ru.yandex.mobile.services", 
-                    "X9DCYK36Q2.ru.yandex.mobile.services.inhouse", 
-                    "477EAT77S3.ru.yandex.mobile.services.dev"
-                ],
-                "components": 
-                [ 
-                    {
-                        "#": "no_universal_links",
-                        "exclude": true
-                    },
-                    {
-                        "/": "/cab/personal/upload-passport",
-                        "exclude": true
-                    },
-                    {
-                        "/": "/my-orders",
-                        "exclude": true
-                    },
-                    {
-                        "/": "/my-order/*",
-                        "exclude": true
-                    },
-                    { "/": "/cab" },
-                    { "/": "/cab/*" },
-                    { "/": "/order/*" },
-                    { "/": "/registration" },
-                    { "/": "/*" }
+                "appID": "X9DCYK36Q2.ru.yandex.mobile.services.clients.inhouse", 
+                "paths": 
+                [   
+                    "NOT /cab/personal/upload-passport",
+                    "NOT /cab/personal/upload-passport/*",
+                    "NOT /cab",
+                    "NOT /cab/*",
+                    "NOT /order/*",
+                    "NOT /registration",
+                    "/my-orders",
+                    "/my-order/*",
+                    "/profile",
+                    "/profile/*",
+                    "/",
+                    "*"
+                ]
+            },
+            {
+                "appID": "477EAT77S3.ru.yandex.mobile.services.clients.dev", 
+                "paths": 
+                [   
+                    "NOT /cab/personal/upload-passport",
+                    "NOT /cab/personal/upload-passport/*",
+                    "NOT /cab",
+                    "NOT /cab/*",
+                    "NOT /order/*",
+                    "NOT /registration",
+                    "/my-orders",
+                    "/my-order/*",
+                    "/profile",
+                    "/profile/*",
+                    "/",
+                    "*"
+                ]
+            },
+            {
+                "appID": "PGB36VEQ8D.ru.yandex.mobile.services", 
+                "paths": 
+                [   
+                    "NOT /cab/personal/upload-passport",
+                    "NOT /cab/personal/upload-passport/*",
+                    "NOT /my-orders",
+                    "NOT /my-orders/*",
+                    "/cab",
+                    "/cab/*",
+                    "/order/*",
+                    "/registration",
+                    "/",
+                    "*"
+                ]
+            },
+            {
+                "appID": "X9DCYK36Q2.ru.yandex.mobile.services.inhouse", 
+                "paths": 
+                [   
+                    "NOT /cab/personal/upload-passport",
+                    "NOT /cab/personal/upload-passport/*",
+                    "NOT /my-orders",
+                    "NOT /my-orders/*",
+                    "/cab",
+                    "/cab/*",
+                    "/order/*",
+                    "/registration",
+                    "/",
+                    "*"
+                ]
+            },
+            {
+                "appID": "477EAT77S3.ru.yandex.mobile.services.dev", 
+                "paths": 
+                [   
+                    "NOT /cab/personal/upload-passport",
+                    "NOT /cab/personal/upload-passport/*",
+                    "NOT /my-orders",
+                    "NOT /my-orders/*",
+                    "/cab",
+                    "/cab/*",
+                    "/order/*",
+                    "/registration",
+                    "/",
+                    "*"
                 ]
             }
         ]
