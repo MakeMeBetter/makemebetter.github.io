@@ -1,26 +1,77 @@
 {
     "applinks": {
         "apps": [],
-        "details": [
+        "details": 
+        [
             {
-                "appID": "PGB36VEQ8D.ru.yandex.mobile.services.clients",
-                "paths": [ 
-                    "/test/*",
-                    "*"
+                "appIDs": 
+                [ 
+                    "PGB36VEQ8D.ru.yandex.mobile.services.clients", 
+                    "X9DCYK36Q2.ru.yandex.mobile.services.clients.inhouse", 
+                    "477EAT77S3.ru.yandex.mobile.services.clients.dev",
+                    "PGB36VEQ8D.ru.yandex.mobile.services", 
+                    "X9DCYK36Q2.ru.yandex.mobile.services.inhouse", 
+                    "477EAT77S3.ru.yandex.mobile.services.dev"
+                ],
+                "components": 
+                [
+                    {
+                        "#": "no_universal_links",
+                        "exclude": true
+                    },
+                    {
+                        "/": "/cab/personal/upload-passport",
+                        "exclude": true
+                    }
                 ]
             },
             {
-                "appID": "X9DCYK36Q2.ru.yandex.mobile.services.clients.inhouse",
-                "paths": [ 
-                    "/test/*",
-                    "*"
+                "appIDs": 
+                [ 
+                    "PGB36VEQ8D.ru.yandex.mobile.services.clients", 
+                    "X9DCYK36Q2.ru.yandex.mobile.services.clients.inhouse", 
+                    "477EAT77S3.ru.yandex.mobile.services.clients.dev"
+                ],
+                "components": 
+                [ 
+                    {
+                        "/": "/cab",
+                        "exclude": true
+                    },
+                    {
+                        "/": "/cab/*",
+                        "exclude": true
+                    },
+                    { "/": "/my-orders" },
+                    { "/": "/my-order/*" },
+                    { "/": "/profile" },
+                    { "/": "/profile/*" },
+                    { "/": "/order/*" },
+                    { "/": "/*" }
                 ]
             },
             {
-                "appID": "477EAT77S3.ru.yandex.mobile.services.clients.dev",
-                "paths": [ 
-                    "/test/*",
-                    "*"
+                "appIDs": 
+                [ 
+                    "PGB36VEQ8D.ru.yandex.mobile.services", 
+                    "X9DCYK36Q2.ru.yandex.mobile.services.inhouse", 
+                    "477EAT77S3.ru.yandex.mobile.services.dev"
+                ],
+                "components": 
+                [ 
+                    {
+                        "/": "/my-orders",
+                        "exclude": true
+                    },
+                    {
+                        "/": "/my-order/*",
+                        "exclude": true
+                    },
+                    { "/": "/cab" },
+                    { "/": "/cab/*" },
+                    { "/": "/order/*" },
+                    { "/": "/registration" },
+                    { "/": "/*" }
                 ]
             }
         ]
