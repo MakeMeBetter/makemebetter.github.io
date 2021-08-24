@@ -42,11 +42,14 @@
                         "/": "/cab/*",
                         "exclude": true
                     },
+                    {
+                        "/": "/order/*",
+                        "exclude": true
+                    },
                     { "/": "/my-orders" },
                     { "/": "/my-order/*" },
                     { "/": "/profile" },
                     { "/": "/profile/*" },
-                    { "/": "/order/*" },
                     { "/": "/*" }
                 ]
             },
